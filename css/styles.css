@@ -1,0 +1,120 @@
+header {
+  width: 100%;
+  height: 400px;
+  background: url("../img/firstview.jpg") no-repeat top/cover;
+}
+
+header h1 {
+  font-size: 40px;
+  text-align: center;
+  line-height: 400px;
+  color: #fff;
+}
+
+.about {
+  margin: 70px auto 0;
+  width: 1000px;
+}
+
+.about h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.about p {
+  text-align: center;
+  line-height: 28px;
+}
+
+.about p:first-of-type {
+  margin-top: 40px;
+}
+
+.blog {
+  margin: 70px auto 0;
+  width: 1000px;
+}
+
+.blog h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.blog > div {
+  margin: 40px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog > div > div {
+  width: calc(100% / 3 - 30px);
+}
+
+.blog > div > div img {
+  width: 100%;
+}
+
+.blog > div > div p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 14px;
+  line-height: 26px;
+}
+
+.contact {
+  margin: 70px auto 0;
+  width: 780px;
+}
+
+.contact h3 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.contact table {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.contact table tr {
+  line-height: 38px;
+}
+
+.contact table tr td:first-of-type {
+  width: 200px;
+}
+
+.contact table label {
+  font-weight: bold;
+}
+
+table input, table textarea {
+  width: 100%;
+}
+
+.contact > div {
+  text-align: center;
+}
+
+.contact > div input {
+  width: 200px;
+  margin: 12px 0 60px;
+  padding: 8px 0;
+  border: none;
+  cursor: pointer;
+  transition: opacity .3s;
+}
+
+.contact > div input:hover {
+  opacity: .8;
+}
+
+.contact > div input:first-of-type {
+  background-color: #c6ccd2;
+  margin-right: 15px;
+}
+
+.contact > div input:last-of-type {
+  background-color:	#3ba7b0;
+  color: #fff;
+}
